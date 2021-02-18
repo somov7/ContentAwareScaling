@@ -27,7 +27,7 @@ SECRET_KEY = '=knfuayv$tzf5sgiux^4r2d%%ug8$+q^4ld9^=#aj%m8@28=9a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -94,5 +94,6 @@ STATIC_URL = '/static/'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:4200',
-    'https://somov7.github.io'
+    'http://localhost:8080',
+    'https://content-aware-scaling.herokuapp.com'
 ]
