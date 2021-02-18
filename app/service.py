@@ -1,7 +1,6 @@
 import numpy as np
 from PIL import Image, ImageFile
 import seam_carving
-import os
 
 
 def parseImage(im: str):
